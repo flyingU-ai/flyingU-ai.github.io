@@ -1,10 +1,135 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Yufei Hu's Homepage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yufei Hu - PhD Candidate in Multimodal AI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to Yufei Hu's Homepage</h1>
-    <p>Here you can find my research papers, projects, and more!</p>
+
+    <!-- Home Section -->
+    <div class="section">
+        <h1>Yufei Hu</h1>
+        <p>PhD Candidate in Computer Science & Multimodal AI</p>
+        <p>Research Focus: Multimodal AI, Vision-Language Integration, Edge Computing</p>
+        <p>Passionate about developing robust AI systems that bridge theoretical innovation with real-world applications.</p>
+    </div>
+
+    <!-- Research Section -->
+    <div class="section">
+        <h2>Research</h2>
+        <ul>
+            <li>
+                <strong>Interactive Prompt-Based Object Detection with Cross-Modal Fusion</strong>
+                <p>Developed a cross-modal framework integrating user prompts (e.g., clicks) with Vision Transformers via cross-attention and contrastive learning, enhancing adaptability for industrial inspection tasks.</p>
+            </li>
+            <li>
+                <strong>CNN Model Distillation Based on SAM for Industrial Anomaly Detection</strong>
+                <p>Designed a lightweight CNN by distilling knowledge from Segment Anything Model (SAM), achieving 91.3% F1-Score on a high-resolution PCBA dataset with 50ms inference latency on edge devices.</p>
+            </li>
+            <li>
+                <strong>Semantic Image Synthesis with CGANs & Transformers</strong>
+                <p>Achieved SOTA on Cityscapes, COCO-Stuff, and ADE20K via frequency-aware loss. Submitted to CVPR 2023.</p>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="section">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <strong>Neural Architecture Search (NAS) for Deep Morphological Networks</strong>
+                <p>Developed pseudo-morphological layers using AutoML to enhance CNN performance in edge detection and segmentation (BSD500 dataset). Published in Pattern Recognition (SCI Q1, IF=8.518).</p>
+                <p><a href="https://github.com/flyingU-ai/NAS-Deep-Morphological-Networks">GitHub Link</a></p>
+            </li>
+            <li>
+                <strong>Self-Supervised Learning for Semantic Segmentation</strong>
+                <p>Developed a self-supervised pipeline using contrastive learning on COCO, achieving state-of-the-art (SOTA) segmentation performance on Cityscapes and BDD100k with minimal supervision. Submitted to Pattern Recognition (SCI Q1).</p>
+                <p><a href="https://github.com/flyingU-ai/Self-Supervised-Segmentation">GitHub Link</a></p>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Publications Section -->
+    <div class="section">
+        <h2>Publications</h2>
+        <ul>
+            <li>
+                <strong>Learning Deep Morphological Networks with Neural Architecture Search</strong>
+                <p>Yufei Hu, N. Belkhir, J. Angulo, A. Yao, G. Franchi. <em>Pattern Recognition</em>, 131, 108893, 2022 (SCI Q1, IF=8.518).</p>
+                <p><a href="https://doi.org/10.1016/j.patcog.2022.108893">Paper Link</a></p>
+            </li>
+            <li>
+                <strong>Robust Semantic Segmentation with Superpixel-Mix</strong>
+                <p>G. Franchi, N. Belkhir, M. L. Ha, Yufei Hu, et al. <em>BMVC 2021</em>, 2021 (CCF-B).</p>
+                <p><a href="https://arxiv.org/abs/xxxx">Paper Link</a></p>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Patents Section -->
+    <div class="section">
+        <h2>Patents</h2>
+        <ul>
+            <li>
+                <strong>Real-time Industrial Foreign Object Detection via Vision Foundation Models</strong>
+                <p>Application Number: CN202410901829.2</p>
+                <p>Developed a vision foundation model-based framework for real-time detection of foreign objects in industrial environments, achieving high precision in edge deployment.</p>
+            </li>
+            <li>
+                <strong>Height Data Fusion with Texture-Guided Information Recovery and Real-Time Super-Resolution</strong>
+                <p>Application Number: CN202410443098.1</p>
+                <p>Innovated a multi-sensor fusion method to reconstruct high-resolution height maps using texture guidance, enhancing accuracy in 3D industrial inspection.</p>
+            </li>
+        </ul>
+    </div>
+
+    <!-- About Me Section -->
+    <div class="section">
+        <h2>About Me</h2>
+        <p>I am a PhD candidate in Computer Science and Multimodal AI, with a focus on integrating vision, language, and cross-modal representations. My research interests include self-supervised learning, neural architecture search, and edge computing. I am passionate about developing AI systems that bridge theoretical innovation with real-world applications.</p>
+        <p><strong>Skills:</strong> Multimodal Fusion, NAS, Self-Supervised Learning, Model Distillation</p>
+        <p><strong>Programming Languages:</strong> Python (PyTorch, OpenCV), C/C++, Java</p>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="section">
+        <h2>Contact</h2>
+        <p>Email: yufei.hu.2021@ensta-paris.fr</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile">LinkedIn Profile</a></p>
+        <p>GitHub: <a href="https://github.com/flyingU-ai">GitHub Profile</a></p>
+    </div>
+
 </body>
 </html>
